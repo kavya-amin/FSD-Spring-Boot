@@ -1,0 +1,13 @@
+package com.example.demo.dao;
+
+import com.example.demo.Employee;
+
+public class EmployeeDAOImpl implements EmployeeDAO {
+
+	@Override
+	public Employee save(Employee employee) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
