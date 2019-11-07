@@ -3,8 +3,8 @@ package com.example.demo.service;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.example.demo.Employee;
 import com.example.demo.dao.EmployeeDAO;
+import com.example.demo.model.Employee;
 
 @Service
 @Transactional
