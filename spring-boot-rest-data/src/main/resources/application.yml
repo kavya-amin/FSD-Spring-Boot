@@ -1,0 +1,17 @@
+server:
+  port: 5724
+spring:
+  h2:
+    console:
+      enabled: true
+  jersey:
+    application-path: api
+  datasource:
+    url: jdbc:mysql://localhost:3306/hr
+    username: root
+    password: pass@word1
+    initialization-mode: always
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
