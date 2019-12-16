@@ -1,0 +1,13 @@
+server:
+  port: 8020
+
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888/
+      
+  data:
+    mongodb:
+      database: test
+      host: localhost
+      port: 27017 
